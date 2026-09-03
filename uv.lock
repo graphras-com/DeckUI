@@ -393,12 +393,12 @@ requires-dist = [
     { name = "defusedxml", specifier = ">=0.7.1" },
     { name = "mkdocs-gen-files", marker = "extra == 'docs'", specifier = ">=0.6.1" },
     { name = "mkdocs-literate-nav", marker = "extra == 'docs'", specifier = ">=0.6.3" },
-    { name = "mkdocs-material", marker = "extra == 'docs'", specifier = ">=9.7.6" },
+    { name = "mkdocs-material", marker = "extra == 'docs'", specifier = ">=9.7.7" },
     { name = "mkdocstrings", extras = ["python"], marker = "extra == 'docs'", specifier = ">=1.0.6" },
     { name = "mypy", marker = "extra == 'dev'", specifier = ">=2.3.0" },
     { name = "pillow", specifier = ">=12.3.0" },
     { name = "pip-audit", marker = "extra == 'audit'", specifier = ">=2.10.1" },
-    { name = "platformdirs", specifier = ">=4.10.0" },
+    { name = "platformdirs", specifier = ">=4.11.0" },
     { name = "pylint", marker = "extra == 'docs'", specifier = ">=4.0.6" },
     { name = "pytest", marker = "extra == 'test'", specifier = ">=9.1.1" },
     { name = "pytest-asyncio", marker = "extra == 'test'", specifier = ">=1.4.0" },
@@ -777,7 +777,7 @@ wheels = [
 
 [[package]]
 name = "mkdocs-material"
-version = "9.7.6"
+version = "9.7.7"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "babel" },
@@ -792,9 +792,9 @@ dependencies = [
     { name = "pymdown-extensions" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/45/29/6d2bcf41ae40802c4beda2432396fff97b8456fb496371d1bc7aad6512ec/mkdocs_material-9.7.6.tar.gz", hash = "sha256:00bdde50574f776d328b1862fe65daeaf581ec309bd150f7bff345a098c64a69", size = 4097959, upload-time = "2026-03-19T15:41:58.161Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f1/cd/c05d3a530ba7934f144fb45f7203cd236adc25c7bdcc34673d202f4b0278/mkdocs_material-9.7.7.tar.gz", hash = "sha256:c0649c065b1b0512d60aad8c10f947f8e455284475239b364b610f2deb4d0855", size = 4097923, upload-time = "2026-07-17T16:21:33.156Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2c/01/bc663630c510822c95c47a66af9fa7a443c295b47d5f041e5e6ae62ef659/mkdocs_material-9.7.6-py3-none-any.whl", hash = "sha256:71b84353921b8ea1ba84fe11c50912cc512da8fe0881038fcc9a0761c0e635ba", size = 9305470, upload-time = "2026-03-19T15:41:55.217Z" },
+    { url = "https://files.pythonhosted.org/packages/ad/21/17c1bc9e6f47c972ad66fb2ac2568f99f90f1207eeb6fc3b34d094dba7b5/mkdocs_material-9.7.7-py3-none-any.whl", hash = "sha256:8ea9bb1737a5b524a5f9dcf2e1b4ebda8274ae3008aa7845720a97083bef708f", size = 9305438, upload-time = "2026-07-17T16:21:30.017Z" },
 ]
 
 [[package]]
@@ -1144,11 +1144,11 @@ wheels = [
 
 [[package]]
 name = "platformdirs"
-version = "4.10.1"
+version = "4.11.7"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/52/cd/4f25b2f95b23f5d2c9c1fe43e49841bff5800562149b2666afc09309aa8f/platformdirs-4.10.1.tar.gz", hash = "sha256:ceab4084426fe6319ce18e86deada8ab1b7487c7aee7040c55e277c9ae793695", size = 31678, upload-time = "2026-07-18T03:53:43.808Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/69/b7/802a56eca9f2fac455b8bab5375a2647b0f0e14a2cd63ef077de3c4a7658/platformdirs-4.11.7.tar.gz", hash = "sha256:4f41487eeeeeb07f3a6625e61d9bc0ae6809f92d3386dbd74392fbb76108104d", size = 35127, upload-time = "2026-09-01T13:35:10.502Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ec/73/6fd0bb9ce84138c3857f12e9de63bc901852975a092d545f18087a204aa2/platformdirs-4.10.1-py3-none-any.whl", hash = "sha256:0e4eff26be2d75293977f7cddc153fd9b8eaa7fb0c7b64ffe4076cb443117443", size = 22906, upload-time = "2026-07-18T03:53:42.576Z" },
+    { url = "https://files.pythonhosted.org/packages/27/6e/80993e10a0482f630cef528635789233224f36b1ffd11592aa15d13ff9ce/platformdirs-4.11.7-py3-none-any.whl", hash = "sha256:8a02cb259042c79d1cd0450facc2fe6dc9d303ae7901afbe33bf8ea0b188cef6", size = 23938, upload-time = "2026-09-01T13:35:09.02Z" },
 ]
 
 [[package]]
